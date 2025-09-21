@@ -120,5 +120,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <p class="note" style="margin-top:12px;">Empresa colaboradora de Diego Raúl Vázquez Vera</p>
     </div>
   </main>
+  <div>
+      <a href="../"><button>Volver</button></a>
+    </div>
 </body>
 </html>

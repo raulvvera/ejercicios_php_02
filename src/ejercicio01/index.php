@@ -57,6 +57,10 @@
         <br>
         <button type="submit" class="btn">🛒 Realizar Pedido</button>
     </form>
+    <br><br>
+    <div class="botones">
+      <a href="../"><button>Volver</button></a>
+    </div>
 </body>
 
 </html>

@@ -37,6 +37,9 @@ echo "</ul>";
 echo "<h2>Total a pagar: " . number_format($total, 2) . " €</h2>";
 echo '<br><a href="index.php">⬅️ Volver al menú</a>';
 ?>
-</div>
+</div><br><br>
+<div class="botones">
+      <a href="../"><button>Volver</button></a>
+    </div>
 </body>
 </html>
