@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Apuesta y Gana — Empezar</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🎲 Apuesta y Gana</h1>
+    <p class="lead">Introduce la cantidad con la que quieres empezar. Si sale la calavera, pierdes todo; medio limón — pierdes la mitad; gato — duplicas.</p>
+
+    <form action="juego.php" method="post" class="card form-card">
+      <label for="initial_money">Cantidad inicial (€)</label>
+      <input type="number" id="initial_money" name="initial_money" min="10" step="0.01" required placeholder="10.00">
+
+      <div class="actions">
+        <button type="submit" class="btn">Empezar a jugar</button>
+      </div>
+    </form>
+
+    <footer class="note">Empresa colaboradora de Diego Raúl Vázquez Vera</footer>
+  </main>
+</body>
+</html>
